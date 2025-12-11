@@ -1,105 +1,121 @@
-Netflix Data Analysis – Exploratory Data Analytics (EDA)
+Netflix Content Analysis 📺📊
+🔍 Project Overview
 
-This project presents a comprehensive exploratory data analysis (EDA) of the Netflix Movies and TV Shows dataset using Python.
-The objective is to uncover content trends, distribution patterns, and key insights that can support decision-making in media analytics.
+This project provides insights into Netflix’s catalog of Movies and TV Shows.
+It focuses on exploring:
 
-📂 Project Overview
+Trends in content types (Movies vs TV Shows)
 
-The analysis focuses on understanding Netflix’s content library through:
+Popular genres
 
-Distribution of Movies vs. TV Shows
+Country-wise content distribution
 
-Trends in release years
+Growth of Netflix’s library over the years
 
-Analysis of ratings and audience categories
+Rating patterns and audience categories
 
-Exploration of genre patterns
+The analysis highlights how Netflix’s platform has evolved and helps identify user-viewing preferences.
 
-Country-wise content contribution
+🧰 Tech Stack & Tools
 
-Identification of data quality issues and cleaning steps
+Python
 
-The study applies structured EDA practices, supported by statistical summaries and visual insights.
+Pandas, NumPy
 
-🛠️ Tools & Technologies
+Matplotlib, Seaborn
 
-Python 3
+Jupyter Notebook / Google Colab
 
-Jupyter Notebook
+📄 Dataset Details
 
-Pandas – data manipulation
+Source: Netflix Movies & TV Shows Dataset (Kaggle)
 
-NumPy – numerical operations
+Total Records: ~8,800 titles
 
-Matplotlib & Seaborn – data visualization
+Features include:
 
-📁 Dataset Description
+Type (Movie / TV Show)
 
-Dataset: netflix_titles.csv
+Title
 
-Key attributes include:
+Director, Cast
 
-type – Movie or TV Show
+Country
 
-title – Name of the content
+Release Year
 
-director / cast
+Rating
 
-country
+Duration
 
-release_year
+Genre (listed_in)
 
-rating
+Description
 
-duration
+🧹 Data Cleaning Steps
 
-listed_in – Genre
+Handled missing values
 
-description
+Standardized text columns
 
-The dataset is suitable for trend analysis, visualization, and beginner-to-intermediate level analytical projects.
+Extracted year & duration information
 
-📊 Key Insights Uncovered
+Split multi-valued columns (e.g., genres, countries)
 
-Clear dominance of Movies over TV Shows in Netflix’s catalog
+Checked duplicate entries
 
-Significant growth in content production after 2015
+📊 Key Insights
 
-Strong genre representation in International Movies, Dramas, and Comedies
+Netflix has significantly expanded its catalog after 2015
 
-Ratings such as TV-MA and TV-14 appear most frequently
+Movies dominate over TV Shows
 
-Countries like United States, India, and United Kingdom contribute the highest volume of content
+The most common ratings include TV-MA, TV-14, and TV-PG
 
-Visuals include bar charts, count plots, line charts, pie charts, and heatmaps.
+Genres such as International Movies, Dramas, and Comedies appear most frequently
 
-🔧 How to Run This Project
+The USA, India, and UK contribute the most content
 
-Clone or download the repository
+📈 Visualizations Include
 
-Install the required libraries:
+Movie vs TV Show Count Plot
 
+Year-wise Release Trend
+
+Top Genres Analysis
+
+Ratings Distribution
+
+Country Contribution Chart
+
+Heatmaps for correlations
+
+🚀 How to Run the Project
 pip install pandas numpy matplotlib seaborn
 
 
-Open the Jupyter Notebook and run all cells in sequence.
+Open the notebook:
+
+Netflix_Project.ipynb
+
+
+Run the cells in order to reproduce the analysis.
 
 📝 Conclusion
 
-This analysis provides a structured overview of Netflix’s content landscape.
-The project demonstrates capability in:
+This project demonstrates real-world data analysis skills, including:
 
-Data cleaning
+Data cleaning & preprocessing
 
-Exploratory Data Analysis
+Exploratory Data Analysis (EDA)
 
-Visualization
+Visualization & storytelling
 
-Trend interpretation
+Interpretation of platform content trends
 
-It showcases practical skills relevant to data analytics roles and media-industry insights.
+It provides meaningful insights into Netflix’s evolving entertainment landscape.
 
-👤 Author
+👩‍💻 Author
 
 Subhashree Pradhan
 Data Analytics | Python | SQL | Visualization
